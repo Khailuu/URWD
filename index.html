@@ -83,16 +83,21 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-sm-3 p-0 navbar__icon--left">
-              <i class="fa-solid fa-bars-staggered pr-2"></i>
+              <i class="fa-solid fa-xmark pr-2" id="btn-close"></i>
+              <i class="fa-solid fa-bars-staggered pr-2" id="btn-menu"></i>
               <i class="fa fa-search"></i>
             </div>
             <div class="col-xl-2 col-md-2 p-0 navbar__logo">
               <img src="./imgs/pngegg-10.png" alt="" width="110px" />
             </div>
+            <div class="col-sm-3 p-0 navbar__icon--right text-right">
+              <i class="fa fa-user"></i>
+              <i class="fa fa-cart-shopping pl-2"></i>
+            </div>
             <div
               class="col-xl-7 p-0 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-0 navbar__right"
             >
-              <ul>
+              <ul id="sub-nav">
                 <li>
                   <a href="#">Home</a>
                 </li>
@@ -110,10 +115,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-sm-3 p-0 navbar__icon--right text-right">
-              <i class="fa fa-user"></i>
-              <i class="fa fa-cart-shopping pl-2"></i>
-            </div>
+            
           </div>
         </div>
       </div>
